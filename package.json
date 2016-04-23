@@ -1,0 +1,23 @@
+{
+  "name": "node-http-typescript-example",
+  "version": "1.0.0",
+  "description": "A small repo that’s setup for creating an HTTP server in Node.js using TypeScript.",
+  "main": "index.ts",
+  "scripts": {
+    "postinstall": "typings install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf build",
+    "build": "tsc --outDir build/ src/index.ts",
+    "start": "node build/index.js",
+    "nodemon": "nodemon build/index.js"
+  },
+  "author": "Marius Lundgård <studio@mariuslundgard.com> (http://mariuslundgard.com/)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.9.1",
+    "rimraf": "^2.5.2",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}
