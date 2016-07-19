@@ -1,29 +1,23 @@
-# node-http-typescript-example
+# typescript-starter
 
-The [TypeScript introduction](https://www.typescriptlang.org/docs/tutorial.html) is not especially beginner-friendly. Here’s a small repo that’s setup for creating an HTTP server in Node.js – with just enough tooling to get started with TypeScript.
+A starter template repo for TypeScript projects.
 
-## Installation
+Pre-installed `typings`:
+
+* node v6
+
+## Getting started
+
+### Installing
 
 ```sh
-git clone git@github.com:mariuslundgard/node-http-typescript-example.git
-cd node-http-typescript-example
+git clone git@github.com:mariuslundgard/typescript-starter.git
+cd typescript-starter
 npm install
 ```
 
-## Compile
+### Compiling
 
 ```sh
 npm run build
-```
-
-## Start the server
-
-```sh
-npm start
-```
-
-While developing, use:
-
-```sh
-npm run nodemon
 ```

@@ -1,8 +1,8 @@
 {
-  "name": "node-http-typescript-example",
+  "name": "typescript-starter",
   "version": false,
   "dependencies": {},
-  "ambientDependencies": {
-    "node": "registry:dt/node#4.0.0+20160412142033"
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160709114037"
   }
 }

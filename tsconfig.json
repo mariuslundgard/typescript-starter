@@ -9,29 +9,23 @@
     "module": "commonjs",
     "noEmitHelpers": false,
     "target": "ES5",
-    "outDir": "build/"
+    "outDir": "dist/"
   },
   "formatCodeOptions": {
     "indentSize": 2,
     "tabSize": 2
   },
   "files": [
-    "./src/config.ts",
     "./src/index.ts",
-    "./src/log.ts",
-    "./src/server.ts",
-    "./typings/browser.d.ts",
-    "./typings/browser/ambient/node/index.d.ts",
-    "./typings/main.d.ts",
-    "./typings/main/ambient/node/index.d.ts"
+    "./typings/index.d.ts"
   ],
   "filesGlob": [
-    "./src/**/*.ts",
-    "./typings/**/*.ts"
+    "./src/index.ts",
+    "./typings/index.d.ts"
   ],
   "exclude": [
     "node_modules",
-    "tests"
+    "test"
   ],
   "atom": {
     "rewriteTsconfig": true
