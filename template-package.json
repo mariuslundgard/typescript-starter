@@ -1,7 +1,7 @@
 {
-  "name": "typescript-starter",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "A starter repository for TypeScript projects.",
+  "description": "{{ description }}",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -10,7 +10,7 @@
     "prebuild": "rimraf dist",
     "test": "tape test/**/*-test.js | faucet"
   },
-  "author": "Marius Lundgård <studio@mariuslundgard.com> (http://mariuslundgard.com/)",
+  "author": "{{ author }}",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {

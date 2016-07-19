@@ -1,8 +1,8 @@
 const tape = require('tape')
 
-const tsStarter = require('../dist/').default
+const main = require('../dist/').default
 
-tape('tsStarter() should return argv back', test => {
+tape('main() should return argv right back', test => {
   test.plan(1)
 
   const argv = [
@@ -11,5 +11,5 @@ tape('tsStarter() should return argv back', test => {
     'test'
   ]
 
-  test.equal(argv, tsStarter(argv))
+  test.equal(argv, main(argv))
 })

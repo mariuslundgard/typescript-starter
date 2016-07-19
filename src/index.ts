@@ -1,5 +1,5 @@
-export default tsStarter
+export default main
 
-function tsStarter (argv: any) {
+function main (argv: any) {
   return argv
 }

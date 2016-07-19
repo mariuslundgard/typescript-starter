@@ -1,0 +1,19 @@
+{
+  "name": "typescript-starter",
+  "parse": [
+    "template-package.json",
+    "TEMPLATE-README.md"
+  ],
+  "discard": [
+    "package.json",
+    "README.md",
+    "template.json"
+  ],
+  "move": [
+    { "template-package.json": "package.json" },
+    { "TEMPLATE-README.md": "README.md" }
+  ],
+  "description": "Based on a starter repository for TypeScript projects.",
+  "author": "Marius Lundgård <studio@mariuslundgard.com> (http://mariuslundgard.com/)",
+  "version": "1.0.0"
+}
